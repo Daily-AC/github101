@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:opencamp.cn)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:mofa.ai)",
+      "Bash(git --version)",
+      "Bash(git checkout:*)",
+      "Bash(git reset:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh workflow run:*)",
+      "Bash(gh pr list:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
